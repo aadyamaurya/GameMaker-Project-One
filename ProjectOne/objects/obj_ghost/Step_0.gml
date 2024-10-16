@@ -2,6 +2,19 @@ if (instance_place(x, y + 1, obj_movable_block)) {
 	vspeed = 0
 }
 
+weapon_active = false;
+
+if (keyboard_check(ord("Z"))) {
+	weapon_active = true;
+	if (image_xscale = -1) {
+		instance_create_layer(x - 75, y, "Instances", obj_weapon)
+	} else {
+		instance_create_layer(x + 75, y, "Instances", obj_weapon)
+	}
+} else {
+	weapon_active = false;
+}
+
 if (keyboard_check(vk_left) && (!instance_place(x - ghost_speed, y, obj_block) || !instance_place(x - ghost_speed, y, obj_moving_platform))) {
 	    x += -ghost_speed;
 	    image_xscale = -1;

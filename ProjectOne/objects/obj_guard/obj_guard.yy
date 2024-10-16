@@ -1,12 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_guard_walking",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_block","path":"objects/obj_block/obj_block.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_guard",
+  "eventList":[],
   "managed":true,
-  "name":"obj_guard_walking",
+  "name":"obj_guard",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",

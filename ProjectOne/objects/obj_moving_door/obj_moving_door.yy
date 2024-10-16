@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_moving_door",
+    "path":"sprites/spr_moving_door/spr_moving_door.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
