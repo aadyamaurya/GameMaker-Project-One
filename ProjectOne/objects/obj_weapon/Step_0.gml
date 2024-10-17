@@ -4,11 +4,11 @@ if (obj_ghost.weapon_active = false) {
 	instance_destroy();
 }
 
-if (instance_exists(obj_ghost)) {
-	if (obj_ghost.image_xscale = -1) {
-		x = obj_ghost.x - 75;
-	} else {
-		x = obj_ghost.x + 75;
-	}
-    y = obj_ghost.y ;
+if (obj_ghost.image_xscale = -1) {
+	x = obj_ghost.x - 7;
+	image_xscale = obj_ghost.image_xscale;
+} else {
+	x = obj_ghost.x + 7;
+	image_xscale = obj_ghost.image_xscale;
 }
+y = obj_ghost.y - 5 ;

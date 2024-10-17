@@ -1,19 +1,48 @@
-if (instance_place(x, y + 1, obj_movable_block)) {
-	vspeed = 0
-}
-
-weapon_active = false;
-
-if (keyboard_check(ord("Z"))) {
-	weapon_active = true;
-	if (image_xscale = -1) {
-		instance_create_layer(x - 75, y, "Instances", obj_weapon)
-	} else {
-		instance_create_layer(x + 75, y, "Instances", obj_weapon)
+if (has_weapon = true) {
+	if (keyboard_check_pressed(ord("F"))) {
+		instance_create_layer(x, y, "Instances", obj_weapon);
+		weapon_active = true;
 	}
-} else {
-	weapon_active = false;
+	if (keyboard_check_released(ord("F"))) {
+		weapon_active = false;
+	}
+	
 }
+
+/////////
+if (keyboard_check_pressed(ord("E"))) { //move box around by holding E near the box
+    var movable_block = instance_place(x + image_xscale * 12, y, obj_movable_block);
+
+    if (movable_block != noone) {
+        grabbing_box = true;
+        grabbed_box = movable_block;
+    }
+}
+
+if (keyboard_check_released(ord("E"))) { //let goo of the box
+    grabbing_box = false;
+    grabbed_box = noone;
+}
+
+//move the player and the box when grabbing
+if (grabbing_box && grabbed_box != noone) {
+    if (keyboard_check(vk_left)) {
+		if !(place_meeting(x, y, obj_movable_block)) {
+			x += -ghost_speed; 
+			grabbed_box.x = x - 24;
+			grabbed_box.x += -ghost_speed; 
+		} 
+    }
+    if (keyboard_check(vk_right)) {    
+		if !(place_meeting(x, y, obj_movable_block)) {
+            x += ghost_speed; 
+			grabbed_box.x = x + 12;
+			grabbed_box.x += ghost_speed; 
+		}
+	}
+}
+
+/////
 
 if (keyboard_check(vk_left) && (!instance_place(x - ghost_speed, y, obj_block) || !instance_place(x - ghost_speed, y, obj_moving_platform))) {
 	    x += -ghost_speed;
@@ -36,12 +65,10 @@ if (instance_place(x, y+1, obj_block)) || (instance_place(x, y+1, obj_moving_pla
 	gravity = 0.25;
 }
 
-if (instance_place(x, y+1, obj_block))
-
-if (vspeed > 12){
-	vspeed = 12
+if (vspeed > 4){
+	vspeed = 4
 }
 
 if (place_meeting(x,y - 1,obj_moving_platform)) {
-	y -= 4
-}
+	y -= 1
+} 

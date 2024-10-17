@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_weapon_pickup",
+    "path":"sprites/spr_weapon_pickup/spr_weapon_pickup.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

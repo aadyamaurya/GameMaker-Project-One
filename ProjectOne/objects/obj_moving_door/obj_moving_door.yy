@@ -1,7 +1,11 @@
 {
   "$GMObject":"",
   "%Name":"obj_moving_door",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_moving_door",
   "overriddenProperties":[],
@@ -26,10 +30,10 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
-    "name":"spr_moving_door",
-    "path":"sprites/spr_moving_door/spr_moving_door.yy",
+    "name":"spr_moving_door_closed",
+    "path":"sprites/spr_moving_door_closed/spr_moving_door_closed.yy",
   },
   "spriteMaskId":null,
   "visible":true,

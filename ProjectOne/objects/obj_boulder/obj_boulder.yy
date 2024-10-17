@@ -29,7 +29,7 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
     "name":"spr_boulder",
     "path":"sprites/spr_boulder/spr_boulder.yy",

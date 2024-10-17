@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"spr_gate",
-    "path":"sprites/spr_gate/spr_gate.yy",
+    "name":"spr_exit_door",
+    "path":"sprites/spr_exit_door/spr_exit_door.yy",
   },
   "spriteMaskId":null,
   "visible":true,
