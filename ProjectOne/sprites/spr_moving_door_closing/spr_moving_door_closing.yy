@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"spr_moving_door_closing",
   "bboxMode":0,
-  "bbox_bottom":71,
-  "bbox_left":14,
-  "bbox_right":23,
+  "bbox_bottom":35,
+  "bbox_left":7,
+  "bbox_right":11,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -20,7 +20,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":72,
+  "height":36,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"1dff2406-400a-46ee-b8dc-9b39ede0e5d4","blendMode":0,"displayName":"default","isLocked":false,"name":"1dff2406-400a-46ee-b8dc-9b39ede0e5d4","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -102,5 +102,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":24,
+  "width":12,
 }

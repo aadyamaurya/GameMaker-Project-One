@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"spr_moving_door_opening",
   "bboxMode":0,
-  "bbox_bottom":71,
-  "bbox_left":14,
-  "bbox_right":23,
+  "bbox_bottom":35,
+  "bbox_left":7,
+  "bbox_right":11,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -20,7 +20,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":72,
+  "height":36,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"4e647daa-4ce2-4447-bea7-3e0815acc9d7","blendMode":0,"displayName":"default","isLocked":false,"name":"4e647daa-4ce2-4447-bea7-3e0815acc9d7","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -102,5 +102,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":24,
+  "width":12,
 }

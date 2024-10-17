@@ -30,7 +30,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.1.171",
+    "IDEVersion":"2024.6.2.162",
   },
   "name":"ProjectOne",
   "resources":[
@@ -48,6 +48,7 @@
     {"id":{"name":"obj_movable_block","path":"objects/obj_movable_block/obj_movable_block.yy",},},
     {"id":{"name":"obj_moving_door","path":"objects/obj_moving_door/obj_moving_door.yy",},},
     {"id":{"name":"obj_moving_platform","path":"objects/obj_moving_platform/obj_moving_platform.yy",},},
+    {"id":{"name":"obj_NONmoving_door","path":"objects/obj_NONmoving_door/obj_NONmoving_door.yy",},},
     {"id":{"name":"obj_spawn_point","path":"objects/obj_spawn_point/obj_spawn_point.yy",},},
     {"id":{"name":"obj_weapon_pickup","path":"objects/obj_weapon_pickup/obj_weapon_pickup.yy",},},
     {"id":{"name":"obj_weapon","path":"objects/obj_weapon/obj_weapon.yy",},},
@@ -55,6 +56,7 @@
     {"id":{"name":"rm_lose","path":"rooms/rm_lose/rm_lose.yy",},},
     {"id":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},},
     {"id":{"name":"rm_win","path":"rooms/rm_win/rm_win.yy",},},
+    {"id":{"name":"baseTileset__1_","path":"sprites/baseTileset__1_/baseTileset__1_.yy",},},
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},},
     {"id":{"name":"spr_base_tiles","path":"sprites/spr_base_tiles/spr_base_tiles.yy",},},
     {"id":{"name":"spr_block","path":"sprites/spr_block/spr_block.yy",},},
