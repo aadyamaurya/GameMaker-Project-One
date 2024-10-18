@@ -30,7 +30,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.1.171",
+    "IDEVersion":"2024.6.2.162",
   },
   "name":"ProjectOne",
   "resources":[
@@ -43,6 +43,7 @@
     {"id":{"name":"obj_door_button_1","path":"objects/obj_door_button_1/obj_door_button_1.yy",},},
     {"id":{"name":"obj_door_button_2","path":"objects/obj_door_button_2/obj_door_button_2.yy",},},
     {"id":{"name":"obj_door_button_3","path":"objects/obj_door_button_3/obj_door_button_3.yy",},},
+    {"id":{"name":"obj_door_button_4","path":"objects/obj_door_button_4/obj_door_button_4.yy",},},
     {"id":{"name":"obj_door_button","path":"objects/obj_door_button/obj_door_button.yy",},},
     {"id":{"name":"obj_enemy_detection","path":"objects/obj_enemy_detection/obj_enemy_detection.yy",},},
     {"id":{"name":"obj_gate","path":"objects/obj_gate/obj_gate.yy",},},
@@ -52,6 +53,7 @@
     {"id":{"name":"obj_moving_door_1","path":"objects/obj_moving_door_1/obj_moving_door_1.yy",},},
     {"id":{"name":"obj_moving_door_2","path":"objects/obj_moving_door_2/obj_moving_door_2.yy",},},
     {"id":{"name":"obj_moving_door_3","path":"objects/obj_moving_door_3/obj_moving_door_3.yy",},},
+    {"id":{"name":"obj_moving_door_4","path":"objects/obj_moving_door_4/obj_moving_door_4.yy",},},
     {"id":{"name":"obj_moving_door","path":"objects/obj_moving_door/obj_moving_door.yy",},},
     {"id":{"name":"obj_moving_platform","path":"objects/obj_moving_platform/obj_moving_platform.yy",},},
     {"id":{"name":"obj_NONmoving_door","path":"objects/obj_NONmoving_door/obj_NONmoving_door.yy",},},
@@ -102,6 +104,7 @@
     {"id":{"name":"spr_spinning_candy","path":"sprites/spr_spinning_candy/spr_spinning_candy.yy",},},
     {"id":{"name":"spr_title","path":"sprites/spr_title/spr_title.yy",},},
     {"id":{"name":"spr_torch","path":"sprites/spr_torch/spr_torch.yy",},},
+    {"id":{"name":"spr_tutorialtext1","path":"sprites/spr_tutorialtext1/spr_tutorialtext1.yy",},},
     {"id":{"name":"spr_weapon_pickup","path":"sprites/spr_weapon_pickup/spr_weapon_pickup.yy",},},
     {"id":{"name":"spr_weapon","path":"sprites/spr_weapon/spr_weapon.yy",},},
     {"id":{"name":"spr_win","path":"sprites/spr_win/spr_win.yy",},},
