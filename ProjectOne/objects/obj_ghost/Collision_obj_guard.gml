@@ -5,5 +5,5 @@ if (lives > 0) {
 	x = obj_spawn_point.x
 	y = obj_spawn_point.y
 } else {
-    room_goto(rm_win);
+    room_goto(rm_lose);
 }

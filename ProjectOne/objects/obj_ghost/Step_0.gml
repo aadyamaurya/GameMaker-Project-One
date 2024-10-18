@@ -28,20 +28,20 @@ if (keyboard_check_released(ord("E"))) { //let goo of the box
 if (grabbing_box && grabbed_box != noone) {
     if (keyboard_check(vk_left)) {
 		if !(place_meeting(x, y, obj_movable_block)) {
-			x += -ghost_speed; 
-			grabbed_box.x = x - 24;
+			//x += -ghost_speed; 
+			grabbed_box.x = x - 20;
 			grabbed_box.x += -ghost_speed; 
 		} 
     }
     if (keyboard_check(vk_right)) {    
 		if !(place_meeting(x, y, obj_movable_block)) {
-            x += ghost_speed; 
-			grabbed_box.x = x + 12;
+            //x += ghost_speed; 
+			grabbed_box.x = x + 8;
 			grabbed_box.x += ghost_speed; 
 		}
 	}
 	if (keyboard_check(vk_up)) {    
-		if !(place_meeting(x, y, obj_movable_block)) && !(place_meeting(x, y, obj_NONmoving_door)) {
+		if !(place_meeting(x, y, obj_movable_block)) {
             y +=  0.25; 
 			grabbed_box.y = y - 12;
 			grabbed_box.y += 0.25; 
