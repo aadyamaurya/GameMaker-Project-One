@@ -1,4 +1,4 @@
-if (has_weapon = true) {
+if (has_weapon = true) || (has_weapon = false){
 	if (keyboard_check_pressed(ord("F"))) {
 		instance_create_layer(x, y, "Instances", obj_weapon);
 		weapon_active = true;
