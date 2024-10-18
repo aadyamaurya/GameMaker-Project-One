@@ -26,8 +26,11 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
-  "spriteId":null,
+  "solid":true,
+  "spriteId":{
+    "name":"spr_enemy_detection",
+    "path":"sprites/spr_enemy_detection/spr_enemy_detection.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

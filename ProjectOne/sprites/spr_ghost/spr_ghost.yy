@@ -1,7 +1,7 @@
 {
   "$GMSprite":"",
   "%Name":"spr_ghost",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":14,
   "bbox_left":0,
   "bbox_right":11,
@@ -34,7 +34,7 @@
   ],
   "name":"spr_ghost",
   "nineSlice":null,
-  "origin":4,
+  "origin":0,
   "parent":{
     "name":"Sprites",
     "path":"folders/Sprites.yy",
@@ -119,8 +119,8 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":6,
-    "yorigin":7,
+    "xorigin":0,
+    "yorigin":0,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

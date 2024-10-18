@@ -40,6 +40,13 @@ if (grabbing_box && grabbed_box != noone) {
 			grabbed_box.x += ghost_speed; 
 		}
 	}
+	if (keyboard_check(vk_up)) {    
+		if !(place_meeting(x, y, obj_movable_block)) && !(place_meeting(x, y, obj_NONmoving_door)) {
+            y +=  0.25; 
+			grabbed_box.y = y - 12;
+			grabbed_box.y += 0.25; 
+		}
+	}
 }
 
 /////
@@ -54,7 +61,7 @@ if (keyboard_check(vk_left) && (!instance_place(x - ghost_speed, y, obj_block) |
 	}
 
 if (keyboard_check(vk_up)){
-	if (instance_place(x, y+1, obj_block)) || (instance_place(x, y+1, obj_moving_platform)) || instance_place(x, y + 1, obj_movable_block){
+	if (instance_place(x, y+1, obj_block)) || (instance_place(x, y+1, obj_moving_platform)) || instance_place(x, y + 1, obj_movable_block) || place_meeting(x,y,obj_moving_platform){
 	    vspeed = jump_height;
 	}
 }
@@ -66,9 +73,14 @@ if (instance_place(x, y+1, obj_block)) || (instance_place(x, y+1, obj_moving_pla
 }
 
 if (vspeed > 4){
-	vspeed = 4
+	vspeed = 4;
 }
 
-if (place_meeting(x,y - 1,obj_moving_platform)) {
-	y -= 1
+if (place_meeting(x,y,obj_moving_platform)) {
+	vspeed = 0;
+	hspeed = 0;
+}
+
+if (instance_place(x, y+1, obj_moving_platform)) {
+	y -= 2;
 } 

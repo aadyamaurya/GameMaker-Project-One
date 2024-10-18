@@ -1,10 +1,10 @@
 {
   "$GMSprite":"",
   "%Name":"spr_guard",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":14,
   "bbox_left":0,
-  "bbox_right":41,
+  "bbox_right":11,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
