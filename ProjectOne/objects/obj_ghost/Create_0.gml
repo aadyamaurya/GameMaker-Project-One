@@ -7,6 +7,6 @@ grabbing_box = false;
 grabbed_box = noone; 
 weapon_active = false;
 has_weapon = false;
-
+exit_open = false;
 
 

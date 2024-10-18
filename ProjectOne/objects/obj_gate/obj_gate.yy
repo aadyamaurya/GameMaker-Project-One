@@ -1,7 +1,10 @@
 {
   "$GMObject":"",
   "%Name":"obj_gate",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_gate",
   "overriddenProperties":[],
@@ -28,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"spr_exit_door",
-    "path":"sprites/spr_exit_door/spr_exit_door.yy",
+    "name":"spr_gate",
+    "path":"sprites/spr_gate/spr_gate.yy",
   },
   "spriteMaskId":null,
   "visible":true,

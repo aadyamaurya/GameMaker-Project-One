@@ -30,7 +30,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.6.2.162",
+    "IDEVersion":"2024.8.1.171",
   },
   "name":"ProjectOne",
   "resources":[
@@ -81,9 +81,9 @@
     {"id":{"name":"spr_door_button_pressed","path":"sprites/spr_door_button_pressed/spr_door_button_pressed.yy",},},
     {"id":{"name":"spr_door_button","path":"sprites/spr_door_button/spr_door_button.yy",},},
     {"id":{"name":"spr_enemy_detection","path":"sprites/spr_enemy_detection/spr_enemy_detection.yy",},},
-    {"id":{"name":"spr_exit_door_opening","path":"sprites/spr_exit_door_opening/spr_exit_door_opening.yy",},},
-    {"id":{"name":"spr_exit_door","path":"sprites/spr_exit_door/spr_exit_door.yy",},},
     {"id":{"name":"spr_floating_torch","path":"sprites/spr_floating_torch/spr_floating_torch.yy",},},
+    {"id":{"name":"spr_gate_opening","path":"sprites/spr_gate_opening/spr_gate_opening.yy",},},
+    {"id":{"name":"spr_gate","path":"sprites/spr_gate/spr_gate.yy",},},
     {"id":{"name":"spr_ghost","path":"sprites/spr_ghost/spr_ghost.yy",},},
     {"id":{"name":"spr_guard","path":"sprites/spr_guard/spr_guard.yy",},},
     {"id":{"name":"spr_heart","path":"sprites/spr_heart/spr_heart.yy",},},

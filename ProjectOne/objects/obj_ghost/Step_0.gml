@@ -9,6 +9,13 @@ if (has_weapon = true) {
 	
 }
 
+// gate check
+if (instance_place(x,y,obj_gate)) {
+	if (keyboard_check_pressed(ord("E"))) {
+		exit_open = true;
+	}
+}
+
 /////////
 if (keyboard_check_pressed(ord("E"))) { //move box around by holding E near the box
     var movable_block = instance_place(x + image_xscale * 12, y, obj_movable_block);
