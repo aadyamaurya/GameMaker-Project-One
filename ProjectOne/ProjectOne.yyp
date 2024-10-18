@@ -30,7 +30,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.6.2.162",
+    "IDEVersion":"2024.8.1.171",
   },
   "name":"ProjectOne",
   "resources":[
@@ -46,7 +46,8 @@
     {"id":{"name":"obj_door_button_4","path":"objects/obj_door_button_4/obj_door_button_4.yy",},},
     {"id":{"name":"obj_door_button_5","path":"objects/obj_door_button_5/obj_door_button_5.yy",},},
     {"id":{"name":"obj_door_button","path":"objects/obj_door_button/obj_door_button.yy",},},
-    {"id":{"name":"obj_enemy_detection","path":"objects/obj_enemy_detection/obj_enemy_detection.yy",},},
+    {"id":{"name":"obj_enemy_detection_left","path":"objects/obj_enemy_detection_left/obj_enemy_detection_left.yy",},},
+    {"id":{"name":"obj_enemy_detection_right","path":"objects/obj_enemy_detection_right/obj_enemy_detection_right.yy",},},
     {"id":{"name":"obj_gate","path":"objects/obj_gate/obj_gate.yy",},},
     {"id":{"name":"obj_ghost","path":"objects/obj_ghost/obj_ghost.yy",},},
     {"id":{"name":"obj_guard","path":"objects/obj_guard/obj_guard.yy",},},

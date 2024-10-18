@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_enemy_detection",
+  "%Name":"obj_enemy_detection_right",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_weapon","path":"objects/obj_weapon/obj_weapon.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_enemy_detection",
+  "name":"obj_enemy_detection_right",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
