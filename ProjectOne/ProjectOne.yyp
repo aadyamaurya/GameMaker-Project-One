@@ -30,7 +30,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.1.171",
+    "IDEVersion":"2024.6.2.162",
   },
   "name":"ProjectOne",
   "resources":[
@@ -94,6 +94,7 @@
     {"id":{"name":"spr_moving_door_opening","path":"sprites/spr_moving_door_opening/spr_moving_door_opening.yy",},},
     {"id":{"name":"spr_moving_platform","path":"sprites/spr_moving_platform/spr_moving_platform.yy",},},
     {"id":{"name":"spr_spinning_candy","path":"sprites/spr_spinning_candy/spr_spinning_candy.yy",},},
+    {"id":{"name":"spr_title","path":"sprites/spr_title/spr_title.yy",},},
     {"id":{"name":"spr_torch","path":"sprites/spr_torch/spr_torch.yy",},},
     {"id":{"name":"spr_weapon_pickup","path":"sprites/spr_weapon_pickup/spr_weapon_pickup.yy",},},
     {"id":{"name":"spr_weapon","path":"sprites/spr_weapon/spr_weapon.yy",},},
