@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 ghost_speed = 2;
-jump_height = -5;
+jump_height = -3.5;
 gravity_direction = 270;
 grabbing_box = false;
 grabbed_box = noone; 

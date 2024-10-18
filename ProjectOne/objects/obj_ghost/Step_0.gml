@@ -49,9 +49,9 @@ if (grabbing_box && grabbed_box != noone) {
 	}
 	if (keyboard_check(vk_up)) {    
 		if !(place_meeting(x, y, obj_movable_block)) {
-            y +=  0.25; 
+            //y +=  0.25; 
 			grabbed_box.y = y - 12;
-			grabbed_box.y += 0.25; 
+			grabbed_box.y += 0.01; 
 		}
 	}
 }
@@ -76,7 +76,7 @@ if (keyboard_check(vk_up)){
 if (instance_place(x, y+1, obj_block)) || (instance_place(x, y+1, obj_moving_platform)) || (instance_place(x, y + 1, obj_movable_block)) {
 	gravity = 0;
 } else {
-	gravity = 0.25;
+	gravity = 0.10;
 }
 
 if (vspeed > 4){
