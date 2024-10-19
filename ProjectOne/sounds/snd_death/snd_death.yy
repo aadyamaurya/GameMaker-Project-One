@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.666667,
+  "duration":2.198481,
   "name":"snd_death",
   "parent":{
     "name":"Sounds",

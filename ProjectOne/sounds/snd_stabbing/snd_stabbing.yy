@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.666667,
+  "duration":1.110317,
   "name":"snd_stabbing",
   "parent":{
     "name":"Sounds",

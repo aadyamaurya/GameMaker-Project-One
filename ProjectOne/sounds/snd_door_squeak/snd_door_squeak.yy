@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.666667,
+  "duration":2.732812,
   "name":"snd_door_squeak",
   "parent":{
     "name":"Sounds",
