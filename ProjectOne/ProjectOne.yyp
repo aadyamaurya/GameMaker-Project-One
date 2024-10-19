@@ -30,7 +30,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.1.171",
+    "IDEVersion":"2024.6.2.162",
   },
   "name":"ProjectOne",
   "resources":[
@@ -45,6 +45,7 @@
     {"id":{"name":"obj_door_button_3","path":"objects/obj_door_button_3/obj_door_button_3.yy",},},
     {"id":{"name":"obj_door_button_4","path":"objects/obj_door_button_4/obj_door_button_4.yy",},},
     {"id":{"name":"obj_door_button_5","path":"objects/obj_door_button_5/obj_door_button_5.yy",},},
+    {"id":{"name":"obj_door_button_6","path":"objects/obj_door_button_6/obj_door_button_6.yy",},},
     {"id":{"name":"obj_door_button","path":"objects/obj_door_button/obj_door_button.yy",},},
     {"id":{"name":"obj_enemy_detection_left","path":"objects/obj_enemy_detection_left/obj_enemy_detection_left.yy",},},
     {"id":{"name":"obj_enemy_detection_right","path":"objects/obj_enemy_detection_right/obj_enemy_detection_right.yy",},},
@@ -57,6 +58,7 @@
     {"id":{"name":"obj_moving_door_3","path":"objects/obj_moving_door_3/obj_moving_door_3.yy",},},
     {"id":{"name":"obj_moving_door_4","path":"objects/obj_moving_door_4/obj_moving_door_4.yy",},},
     {"id":{"name":"obj_moving_door_5","path":"objects/obj_moving_door_5/obj_moving_door_5.yy",},},
+    {"id":{"name":"obj_moving_door_6","path":"objects/obj_moving_door_6/obj_moving_door_6.yy",},},
     {"id":{"name":"obj_moving_door","path":"objects/obj_moving_door/obj_moving_door.yy",},},
     {"id":{"name":"obj_moving_platform","path":"objects/obj_moving_platform/obj_moving_platform.yy",},},
     {"id":{"name":"obj_NONmoving_door","path":"objects/obj_NONmoving_door/obj_NONmoving_door.yy",},},
